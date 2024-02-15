@@ -5,7 +5,6 @@ metadata:
   annotations:
     quay.io/repository-slug: gazarenk/backstage-operator
 spec:
-  owner: "Janus-IDP Authors"
+  owner: guest
   type: service
   lifecycle: experimental
-  
