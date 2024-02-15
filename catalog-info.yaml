@@ -1,8 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "test"
+  name: example-quay
+  annotations:
+    quay.io/repository-slug: gazarenk/backstage-operator
 spec:
   type: service
-  owner: user:guest
   lifecycle: experimental
+  owner: gazarenkov
