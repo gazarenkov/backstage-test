@@ -1,11 +1,11 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: guest
-spec:
-  memberOf: [guests]
----
+# # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+# apiVersion: backstage.io/v1alpha1
+# kind: User
+# metadata:
+#   name: guest
+# spec:
+#   memberOf: [guests]
+# ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -14,14 +14,14 @@ metadata:
 spec:
   type: team
   children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: example-quay
-  annotations:
-    quay.io/repository-slug: gazarenk/backstage-operator
-spec:
-  owner: guest
-  type: service
-  lifecycle: experimental
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: example-quay
+#   annotations:
+#     quay.io/repository-slug: gazarenk/backstage-operator
+# spec:
+#   owner: guest
+#   type: service
+#   lifecycle: experimental
