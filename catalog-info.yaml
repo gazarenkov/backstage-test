@@ -10,7 +10,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: guests
+  ##name: guests
+  name: test
 spec:
   type: team
   children: []
