@@ -23,5 +23,6 @@ metadata:
     quay.io/repository-slug: gazarenk/backstage-operator
 spec:
   owner: group:guests
-  type: service
+  #type: service
+  type: image-registry
   lifecycle: experimental
